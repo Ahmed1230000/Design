@@ -48,9 +48,10 @@ a:hover {
 .position7 {
   display: flex;
   /* justify-content: space-around; */
-  align-items: flex-start;
+  align-items: start;
 }
-.header-section {
+.header-section ,
+.footer{
   position: relative;
   height: 750px;
   width: 100%;
@@ -223,7 +224,12 @@ a:hover {
 }
 .container .agent-info .user-info .link-estate-book,
 .container .about-developer .link-estate-book,
-.container .about-project .link-estate-book {
+.container .about-project .link-estate-book,
+.container .about-project-2 .link-estate-book,
+.container .about-project-3 .link-estate-book,
+.container .unit-info .parts .part-1 .link-estate-book,
+.container .unit-info-2 .link-estate-book,
+.container .payement-info .link-estate-book {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -234,7 +240,12 @@ a:hover {
 }
 .container .agent-info .user-info .link-estate-book .number-page span,
 .container .about-developer .link-estate-book .number-page span,
-.container .about-project .link-estate-book .number-page span {
+.container .about-project .link-estate-book .number-page span,
+.container .about-project-2 .link-estate-book .number-page span,
+.container .about-project-3 .link-estate-book .number-page span,
+.container .unit-info .parts .part-1 .link-estate-book .number-page span,
+.container .unit-info-2 .link-estate-book .number-page span,
+.container .payement-info .link-estate-book .number-page span {
   /* height: 50px; */
   margin-right: 15px;
   padding-right: 15px;
@@ -295,13 +306,23 @@ a:hover {
   height: 100%;
   /* background: #eeeeee; */
 }
-.container .about-project .title .project {
+.container .about-project .title .project,
+.container .about-project-2 .project,
+.container .about-project-3 .project,
+.container .unit-info .title,
+.container .unit-info-2 .project,
+.container .payement-info .title {
   position: relative;
   width: 100%;
   height: 80px;
   /* background: sienna; */
 }
-.container .about-project .title .project h3 {
+.container .about-project .title .project h3,
+.container .about-project-2 .project h3,
+.container .about-project-3 .project h3,
+.container .unit-info .title h3,
+.container .unit-info-2 .project h3,
+.container .payement-info .title h3 {
   position: absolute;
   left: 0;
   /* right: 71.58%; */
@@ -464,7 +485,7 @@ a:hover {
   height: 43%;
   width: 100%;
   margin-bottom: 10px;
-  background: #5f5f5f;
+  /* background: #5f5f5f; */
 }
 .container .about-project .photo .about-photo-2 .img {
   width: 49%;
@@ -474,4 +495,341 @@ a:hover {
 .container .about-project .photo .about-photo-2 img {
   width: 100%;
   height: 100%;
+}
+.container .about-project-2,
+.container .about-project-3 {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  margin-top: 100px;
+  background: #ffffff;
+}
+.container .about-project-2 .imgs,
+.container .about-project-3 .imgs {
+  width: 80%;
+  height: 60%;
+  margin: auto;
+}
+.container .about-project-2 .imgs .about-imgs,
+.container .about-project-3 .imgs .about-imgs {
+  width: 50%;
+  height: 100%;
+}
+.container .about-project-2 .imgs .about-imgs .insert-photo {
+  width: 100%;
+  height: 50%;
+}
+.container .about-project-2 .imgs .about-imgs .insert-photo img {
+  width: 100%;
+  height: 95%;
+}
+.container .about-project-2 .imgs .about-imgs-dif {
+  width: 49%;
+  height: 99%;
+}
+.container .about-project-2 .imgs .about-imgs-dif img,
+.container .about-project-3 .imgs .about-imgs img {
+  width: 100%;
+  height: 100%;
+}
+.container .about-project-3 .imgs .about-imgs {
+  background: black;
+  width: 100%;
+}
+.container .unit-info {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  background: #ffffff;
+  margin-top: 100px;
+}
+.container .unit-info .parts {
+  width: 100%;
+  height: 80%;
+  /* margin: auto; */
+  /* background: black; */
+}
+.container .unit-info .parts .part-1,
+.container .unit-info .parts .part-2 {
+  width: 49%;
+  height: 100%;
+  /* background: wheat; */
+}
+.container .unit-info .parts .part-1 .small-title {
+  width: 100%;
+  height: 50px;
+  /* background: #bebebe; */
+  font-size: 35px;
+}
+.container .unit-info .parts .part-1 .icons {
+  width: 80%;
+  height: 100px;
+  /* background: rebeccapurple; */
+}
+.container .unit-info .parts .part-1 .icons .about-icon {
+  width: 32%;
+  height: 100%;
+  /* background: violet; */
+  padding-top: 30px;
+}
+.container .unit-info .parts .part-1 .icons .about-icon i {
+  padding: 15px;
+  background: #d1d1d1;
+  color: #000000;
+  border-radius: 5px;
+  font: 10px !important;
+}
+.container .unit-info .parts .part-1 .icons .about-icon span {
+  font-size: 20px;
+}
+.container .unit-info .parts .part-1 .icons .about-icon i span {
+  margin-left: 5px;
+}
+.container .unit-info .parts .part-1 .icons .about-icon i .icon-1,
+.container .unit-info .parts .part-1 .icons .about-icon i .icon-2 {
+  margin-left: -10px;
+}
+.container .unit-info .parts .part-1 .property-info {
+  width: 100%;
+  height: 100px;
+  /* background: palegreen; */
+}
+.container .unit-info .parts .part-1 .property-info h3 {
+  font-weight: 800;
+  font-size: 25px;
+}
+.container .unit-info .parts .part-1 .property-info p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+}
+.container .unit-info .parts .part-1 .property-details {
+  width: 100%;
+  height: 180px;
+  /* background: mediumaquamarine; */
+}
+.container .unit-info .parts .part-1 .property-details .title,
+.container .unit-info .parts .part-1 .unit-features .unit-features-title {
+  width: 100%;
+  height: 50px;
+  /* background: brown; */
+  text-transform: capitalize;
+}
+.container .unit-info .parts .part-1 .property-details .title h3,
+.container .unit-info .parts .part-1 .unit-features .unit-features-title h3 {
+  font-size: 25px;
+  color: #bebebe;
+}
+.container .unit-info .parts .part-1 .property-details .curd {
+  width: 100%;
+  height: 70%;
+  /* background: rgb(50, 75, 26); */
+}
+.container .unit-info .parts .part-1 .property-details .curd .about-curd {
+  width: 30%;
+  height: 100%;
+  /* background: indianred; */
+}
+.container .unit-info .parts .part-1 .property-details .curd .about-curd h4 {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.container .unit-info .parts .part-1 .property-details .curd .about-curd span {
+  text-transform: capitalize;
+}
+.container .unit-info .parts .part-1 .unit-features {
+  width: 100%;
+  height: 130px;
+  /* background: olive; */
+}
+.container .unit-info .parts .part-1 .unit-features .unit-features-title {
+  width: 100%;
+  height: 30px;
+  /* background: brown; */
+}
+.container .unit-info .parts .part-1 .unit-features .unit-features-curd {
+  width: 80%;
+  height: 100px;
+  /* background: lightblue; */
+}
+.container .unit-info .parts .part-1 .unit-features .unit-features-curd .curd {
+  text-align: center;
+  position: relative;
+  width: 30%;
+  height: 70%;
+  /* background: orangered; */
+}
+.container
+  .unit-info
+  .parts
+  .part-1
+  .unit-features
+  .unit-features-curd
+  .curd
+  .photo {
+  width: 40%;
+  height: 50%;
+  margin: auto;
+}
+.container
+  .unit-info
+  .parts
+  .part-1
+  .unit-features
+  .unit-features-curd
+  .curd
+  .photo
+  img {
+  width: 100%;
+  height: 100%;
+}
+.container
+  .unit-info
+  .parts
+  .part-1
+  .unit-features
+  .unit-features-curd
+  .curd
+  .photo
+  span {
+  text-transform: capitalize;
+}
+.container .unit-info .parts .part-2 .one-photo {
+  width: 100%;
+  height: 45%;
+  /* background: palegoldenrod; */
+}
+.container .unit-info .parts .part-2 .one-photo img {
+  width: 100%;
+  height: 100%;
+}
+.container .unit-info .parts .part-2 .tow-photo {
+  margin-top: 10px;
+  width: 100%;
+  height: 45%;
+  /* background: #4cb087; */
+}
+.container .unit-info .parts .part-2 .tow-photo .about-tow-photo {
+  width: 49%;
+  height: 100%;
+  /* background: black; */
+}
+.container .unit-info .parts .part-2 .tow-photo .about-tow-photo img {
+  width: 100%;
+  height: 100%;
+}
+.container .unit-info-2 {
+  position: relative;
+  margin-top: 100px;
+  width: 100%;
+  height: 600px;
+  /* background: olive; */
+}
+.container .unit-info-2 .floor-plan h3,
+.container .payement-info .unit-price h3,
+.container .payement-info .payement-plan h3 {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.container .unit-info-2 .photos {
+  width: 100%;
+  height: 80%;
+  /* background: peru; */
+}
+.container .unit-info-2 .photos .about-photo {
+  width: 49%;
+  height: 100%;
+  /* background: gray; */
+}
+.container .unit-info-2 .photos .about-photo img {
+  width: 100%;
+  height: 100%;
+}
+.container .payement-info {
+  position: relative;
+  margin-top: 100px;
+  width: 100%;
+  height: 600px;
+  background: #ffffff;
+}
+.container .payement-info .curds {
+  width: 100%;
+  height: 100px;
+  /* background: indigo; */
+}
+.container .payement-info .curds .about-curds,
+.container .payement-info .curds .about-curds-dif {
+  width: 30%;
+  height: 100%;
+  /* background: yellowgreen; */
+  padding-top: 15px;
+}
+.container .payement-info .curds .about-curds-dif {
+  border-left: 1px solid #5f5f5f;
+  border-right: 1px solid #5f5f5f;
+  padding: 10px;
+}
+.container .payement-info .curds .about-curds span,
+.container .payement-info .curds .about-curds-dif span {
+  font-weight: 400;
+  line-height: 170%;
+  letter-spacing: 0.0015em;
+  color: #5f5f5f;
+}
+.container .payement-info .curds .about-curds h2 span,
+.container .payement-info .curds .about-curds-dif h2 span {
+  font-size: 19px;
+}
+.container .payement-info .curds .about-curds .size,
+.container .payement-info .curds .about-curds-dif .size {
+  font-size: 20px;
+}
+.container .payement-info .curds .about-curds .size span,
+.container .payement-info .curds .about-curds-dif .size span {
+  font-size: 13px;
+}
+.container .payement-info .payement-plan h3 {
+  margin-top: 20px;
+}
+.container .payement-info .payement-plan-curd {
+  width: 100%;
+  height: 200px;
+  /* background: paleturquoise; */
+}
+.container .payement-info .payement-plan-curd .payement-plan-curd-part {
+  width: 22%;
+  height: 100%;
+  padding-top: 60px;
+  background: #f9f9f9;
+  text-align: center;
+}
+.container .payement-info .payement-plan-curd .payement-plan-curd-part h3,
+.container
+  .payement-info
+  .payement-plan-curd
+  .payement-plan-curd-part
+  .dif-title {
+  font-size: 25px;
+  text-transform: capitalize;
+}
+.container .payement-info .payement-plan-curd .payement-plan-curd-part .dif {
+  font-size: 15px;
+}
+.footer{
+    padding: 20px;
+    /* height: 900px !important; */
+}
+.footer .about-footer{
+    
+    position: relative;
+    width: 100%;
+    height: 80%;
+    background: lightblue;
+}
+.footer .about-footer img{
+    height: 100%;
+    width: 100%;
+    background-size:cover;
 }
