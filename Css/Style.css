@@ -1,0 +1,477 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-family: 'Poppins';
+}
+a {
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+.position {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.position2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.position3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.position4 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.position5 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.position6 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  flex-direction: row;
+}
+.position7 {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: flex-start;
+}
+.header-section {
+  position: relative;
+  height: 750px;
+  width: 100%;
+  border-radius: 0px;
+  background: #4cb087;
+}
+.header-section .title {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  height: 150px;
+  width: 20%;
+  text-align: center;
+  font-size: 45px;
+  /* background: black; */
+}
+.header-section .title .one-color {
+  color: rgb(0, 0, 0);
+}
+.header-section .title .two-color {
+  color: rgb(225, 223, 223);
+}
+.header-section .title .sales {
+  position: absolute;
+  left: 50%;
+  top: 370px;
+  transform: translate(-50%, -50%);
+  height: 150px;
+  width: 300px;
+  text-align: center;
+  font-size: 45px;
+  color: rgb(225, 223, 223);
+  text-transform: uppercase;
+}
+.header-section .title .Sales-offer {
+  position: absolute;
+  top: 420px;
+  left: 50%;
+  text-transform: uppercase;
+  transform: translate(-50%, -50%);
+  color: black;
+  width: 900px;
+  height: 100px;
+  font-size: 40px;
+  /* letter-spacing: ; */
+  font-family: 'Poppins';
+  font-weight: 900;
+}
+.header-section .title a {
+  position: absolute;
+  bottom: -500px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background: black; */
+  color: white;
+  font-size: 15px;
+}
+.header-section .title a:hover {
+  text-decoration: none;
+}
+.container .agent-info {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  background: #ffffff;
+}
+.container .agent-info .info {
+  /* background: saddlebrown; */
+  position: absolute;
+  left: 0;
+  right: 79.7%;
+  top: 7.22%;
+  bottom: 88.51%;
+  width: 250px;
+  height: 70px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #bebebe;
+  text-align: left;
+}
+.container .agent-info .user-info {
+  position: relative;
+  top: 20%;
+  width: 100%;
+  height: 70%;
+  /* background: salmon; */
+}
+.container .agent-info .user-info .photo {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  /* background: black; */
+}
+.container .agent-info .user-info .photo img,
+.container .about-developer .title .photo img {
+  width: 100%;
+  height: 100%;
+}
+.container .agent-info .user-info .user-info-details {
+  position: absolute;
+  right: 0;
+  width: 85%;
+  height: 100%;
+  /* background: silver; */
+  text-transform: capitalize;
+}
+.container .agent-info .user-info .user-info-details h3 {
+  margin: 5px 0;
+}
+.container .agent-info .user-info .user-info-details p {
+  margin-top: 10px;
+  font-family: 'Poppins';
+}
+.container .agent-info .user-info .user-info-details .Contact-information {
+  /* background: blue; */
+  width: 100%;
+  height: 20%;
+}
+.container .agent-info .user-info .user-info-details .Contact-information i {
+  display: block;
+  height: 16.5px;
+  margin: 25px 0 10px 0;
+  /* background-color: #4cb087; */
+  color: black;
+}
+.container
+  .agent-info
+  .user-info
+  .user-info-details
+  .Contact-information
+  i
+  .number,
+.container
+  .agent-info
+  .user-info
+  .user-info-details
+  .Contact-information
+  i
+  .email,
+.container
+  .agent-info
+  .user-info
+  .user-info-details
+  .Contact-information
+  i
+  .link,
+.container .about-developer .title .photo .title i .link {
+  width: 55%;
+  margin-left: 15px;
+  padding-left: 15px;
+  border-left: 2px solid #eeeeee;
+  /* background: seagreen; */
+  font-family: 'Poppins';
+  color: black;
+}
+.container
+  .agent-info
+  .user-info
+  .user-info-details
+  .Contact-information
+  i
+  .link {
+  margin-left: 12px;
+}
+.container .agent-info .user-info .link-estate-book,
+.container .about-developer .link-estate-book,
+.container .about-project .link-estate-book {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  bottom: -100px;
+  width: 90%;
+  height: 10%;
+  /* background: slateblue; */
+}
+.container .agent-info .user-info .link-estate-book .number-page span,
+.container .about-developer .link-estate-book .number-page span,
+.container .about-project .link-estate-book .number-page span {
+  /* height: 50px; */
+  margin-right: 15px;
+  padding-right: 15px;
+  border-right: 2px solid #eeeeee;
+  /* background: seagreen; */
+}
+.container .about-developer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+}
+.container .about-developer .about {
+  width: 100%;
+  height: 20%;
+  /* background: saddlebrown; */
+}
+.container .about-developer .title {
+  width: 100%;
+  height: 60%;
+  margin-top: 20px;
+  /* background: sienna; */
+}
+.container .about-developer .about h3 {
+  position: absolute;
+  left: 5px;
+  /* right: 71.58%; */
+  top: 10.22%;
+  bottom: 88.51%;
+  width: 100%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #bebebe;
+}
+.container .about-developer .title .photo .about-photo {
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  /* background: seashell; */
+}
+.container .about-developer .title .photo .title {
+  width: 85%;
+}
+.container .about-project {
+  position: relative;
+  margin-top: 100px;
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+}
+.container .about-project .title,
+.container .about-project .photo {
+  width: 49%;
+  height: 100%;
+  /* background: #eeeeee; */
+}
+.container .about-project .title .project {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  /* background: sienna; */
+}
+.container .about-project .title .project h3 {
+  position: absolute;
+  left: 0;
+  /* right: 71.58%; */
+  top: 20.22%;
+  bottom: 60.51%;
+  width: 100%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #bebebe;
+}
+.container .about-project .title .phoot-title {
+  width: 100%;
+  height: 90px;
+  /* background: slateblue; */
+}
+.container .about-project .title .phoot-title .photo,
+.container .about-project .title .phoot-title .title {
+  position: relative;
+  width: 30%;
+  height: 100%;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+.container .about-project .title .phoot-title .title {
+  margin-left: -20px !important;
+}
+.container .about-project .title .phoot-title .photo img {
+  width: 75%;
+  height: 95%;
+}
+.container .about-project .title .phoot-title .title span {
+  position: absolute;
+  top: -10%;
+  left: 0;
+  width: 100%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 99px;
+  display: flex;
+  align-items: flex-end;
+  color: #000000;
+  text-transform: capitalize;
+}
+.container .about-project .title .prag {
+  width: 100%;
+  height: 160px;
+  /* background: slategrey; */
+  text-align: left;
+}
+.container .about-project .title .prag p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  width: 100%;
+  font-size: 18px;
+  line-height: 150%;
+  color: #5f5f5f;
+}
+.container .about-project .title .many-photos {
+  width: 100%;
+  height: 190px;
+  /* background: wheat; */
+}
+.container .about-project .title .many-photos .amenities,
+.container .about-project .title .location .about-location {
+  width: 100%;
+  height: 15%;
+  /* background: black; */
+}
+.container .about-project .title .many-photos .photo {
+  width: 90%;
+  /* margin: auto; */
+  margin-left: 20px;
+  height: 80%;
+  /* background: darkgoldenrod; */
+  padding-right: 12 px;
+}
+.container .about-project .title .many-photos .amenities span,
+.container .about-project .title .location .about-location span {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 69px;
+  display: flex;
+  align-items: flex-end;
+  color: #000000;
+  text-transform: capitalize;
+}
+.container .about-project .title .many-photos .photo .photo,
+.container .about-project .title .many-photos .photo .photo-2,
+.container .about-project .title .many-photos .photo .photo-3,
+.container .about-project .title .many-photos .photo .photo-4,
+.container .about-project .title .many-photos .photo .photo-5 {
+  position: relative;
+  width: 18%;
+  height: 55%;
+  /* background: hotpink; */
+  background: linear-gradient(0deg, #e4e4e4, #e4e4e4),
+    linear-gradient(0deg, #ffffff, #ffffff);
+}
+.container .about-project .title .many-photos .photo .photo img,
+.container .about-project .title .many-photos .photo .photo-2 img,
+.container .about-project .title .many-photos .photo .photo-3 img,
+.container .about-project .title .many-photos .photo .photo-4 img,
+.container .about-project .title .many-photos .photo .photo-5 img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 55%;
+  height: 50%;
+  margin: 0;
+}
+.container .about-project .title .many-photos .photo .photo span,
+.container .about-project .title .many-photos .photo .photo-2 span,
+.container .about-project .title .many-photos .photo .photo-3 span,
+.container .about-project .title .many-photos .photo .photo-4 span,
+.container .about-project .title .many-photos .photo .photo-5 span {
+  position: absolute;
+  top: 100%;
+  text-align: center;
+  /* transform: translate(-50%, -50%); */
+  width: 100%;
+  text-transform: capitalize;
+}
+.container .about-project .title .location {
+  width: 100%;
+  height: 250px;
+  /* background: saddlebrown; */
+}
+.container .about-project .title .location .location-title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  margin-top: 10px;
+  color: #5f5f5f;
+  text-transform: capitalize;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+.container .about-project .title .location .location-photo {
+  width: 100%;
+  height: 150px;
+}
+.container .about-project .title .location .location-photo img {
+  width: 100%;
+  height: 100%;
+}
+.container .about-project .photo .about-photo,
+.container .about-project .photo .about-photo-2 {
+  height: 43%;
+  width: 100%;
+  margin-bottom: 10px;
+  background: #5f5f5f;
+}
+.container .about-project .photo .about-photo-2 .img {
+  width: 49%;
+  height: 83%;
+}
+.container .about-project .photo .about-photo img,
+.container .about-project .photo .about-photo-2 img {
+  width: 100%;
+  height: 100%;
+}
